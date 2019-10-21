@@ -12,6 +12,10 @@ public class eucdist{
     System.out.println("x value of second coordinate:");
     int y2 = scanner.nextInt();
     
+    int xSlopeDiff = x2 - x1;
+    int ySlopeDiff = y2 - y1;
+    int slope = xSlopeDiff / ySlopeDiff;
     
+    System.out.println("Euclidean Distance is: " + slope);
   }
 }
