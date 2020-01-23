@@ -20,6 +20,6 @@ public class eucdist{
   }
   
   public int distCalc(int x1, int y1, int x1, int y2) {
-    //enter code here
+    //code need to be here
   }
 }
